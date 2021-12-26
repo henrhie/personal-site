@@ -1,0 +1,15 @@
+.profile-image-main {
+	height: 7rem;
+	width: 7rem;
+	border-radius: 100px;
+	border: 2.8px solid #646ceb;
+	padding: 0.18rem;
+	margin-left: 2.8rem;
+	margin-right: 5rem;
+}
+
+.profile-image {
+	height: 7rem;
+	width: 7rem;
+	border-radius: 100px;
+}
