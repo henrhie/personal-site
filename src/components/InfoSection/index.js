@@ -44,7 +44,7 @@ function InfoSection() {
 					flexDirection: 'row',
 					alignItems: 'center',
 				}}>
-				<p>devops@Stanbic</p>
+				<p>Software @Stanbic</p>
 				<Dot />
 				<p>Accra, Ghana</p>
 			</div>

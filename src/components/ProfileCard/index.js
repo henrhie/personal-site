@@ -49,7 +49,7 @@ function ProfileCard() {
 					</div>
 					<div className='top-section'>
 						<ProfileImage />
-						<div style={{ display: 'flex', flexDirection: 'row' }}>
+						{/* <div style={{ display: 'flex', flexDirection: 'row' }}>
 							<IconWithTextButton
 								Icon={MessageIcon}
 								text='Reach out'
@@ -67,7 +67,7 @@ function ProfileCard() {
 								backgroundColor='#EBF9F6'
 								font='inter-semibold'
 							/>
-						</div>
+						</div> */}
 					</div>
 					<InfoSection />
 					<SkillsSection />

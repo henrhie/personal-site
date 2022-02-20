@@ -55,12 +55,12 @@ function Tabs() {
 				onTabClick={() => setActiveTab(0)}
 			/>
 			<Tab
-				title='Blogs'
+				title='Experience'
 				active={activeTab === 1}
 				onTabClick={() => setActiveTab(1)}
 			/>
 			<Tab
-				title='Experience'
+				title='Blogs'
 				active={activeTab === 2}
 				onTabClick={() => setActiveTab(2)}
 			/>

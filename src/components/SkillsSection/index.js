@@ -1,27 +1,43 @@
 import React from 'react';
 import IconWithTextButton from '../IconWithTextButton';
 
-import ReactIcon from '../../../assets/icons8-react.svg';
-import ReactNativeIcon from '../../../assets/icons8-reactnative.svg';
-import TypescriptIcon from '../../../assets/icons8-typescript.svg';
-import GraphqlIcon from '../../../assets/icons8-graphql.svg';
-// import CplusplusIcon from '../../../assets/icons8-c++.svg';
-// import KotlinIcon from '../../../assets/icons8-kotlin.svg';
-import JavascriptIcon from '../../../assets/icons8-javascript.svg';
-// import VscodeIcon from '../../../assets/icons8-visual-studio-code-2019.svg';
+import ReactIcon from '../../../assets/react-icon.png';
+import ReactNativeIcon from '../../../assets/react-native-icon.png';
+import TypescriptIcon from '../../../assets/typescript-icon.png';
+import GraphqlIcon from '../../../assets/graphql-icon.png';
+import CplusplusIcon from '../../../assets/cplusplus-icon.png';
+import ReduxIcon from '../../../assets/redux-icon.png';
+import JavascriptIcon from '../../../assets/javascript-icon.png';
+import DockerIcon from '../../../assets/docker-icon.png';
 
 function SkillsSection() {
 	return (
 		<div style={{ marginLeft: '2.7rem', marginTop: '1.2rem' }}>
-			<div style={{ display: 'flex', flexDirection: 'row' }}>
+			<div
+				style={{
+					display: 'flex',
+					flexDirection: 'row',
+					flexWrap: 'wrap',
+					width: '75%',
+				}}>
 				<IconWithTextButton
 					text='React'
 					Icon={ReactIcon}
+					borderRadius='18rem'
+					_border
+					imageSize='30rem'
+					skillButton
+					hoverColor='#5DD3F3'
+					font='inter-semibold'
+				/>
+				<IconWithTextButton
+					text='Redux'
+					Icon={ReduxIcon}
 					borderRadius='6.25rem'
 					_border
-					imageSize='18rem'
+					imageSize='30rem'
 					skillButton
-					textColor='#334756'
+					hoverColor='#7027A0'
 					font='inter-semibold'
 				/>
 				<IconWithTextButton
@@ -29,9 +45,9 @@ function SkillsSection() {
 					Icon={ReactNativeIcon}
 					borderRadius='6.25rem'
 					_border
-					imageSize='18rem'
+					imageSize='30rem'
 					skillButton
-					textColor='#334756'
+					hoverColor='#7041A9'
 					font='inter-semibold'
 				/>
 				<IconWithTextButton
@@ -39,22 +55,19 @@ function SkillsSection() {
 					Icon={TypescriptIcon}
 					borderRadius='6.25rem'
 					_border
-					imageSize='18rem'
+					imageSize='30rem'
 					skillButton
-					textColor='#334756'
+					hoverColor='#2f74c0'
 					font='inter-semibold'
 				/>
-			</div>
-			<div
-				style={{ display: 'flex', flexDirection: 'row', marginTop: '0.4rem' }}>
 				<IconWithTextButton
 					text='Graphql'
 					Icon={GraphqlIcon}
 					borderRadius='6.25rem'
 					_border
-					imageSize='18rem'
+					imageSize='30rem'
 					skillButton
-					textColor='#333342'
+					hoverColor='#FF4081'
 					font='inter-semibold'
 				/>
 				<IconWithTextButton
@@ -62,41 +75,32 @@ function SkillsSection() {
 					Icon={JavascriptIcon}
 					borderRadius='6.25rem'
 					_border
-					imageSize='18rem'
+					imageSize='30rem'
 					skillButton
-					textColor='#333342'
+					hoverColor='#EAD41C'
 					font='inter-semibold'
 				/>
-				{/* <IconWithTextButton
-					text='Vscode'
-					Icon={VscodeIcon}
+				<IconWithTextButton
+					text='Docker'
+					Icon={DockerIcon}
 					borderRadius='6.25rem'
 					_border
-					imageSize='18rem'
+					imageSize='30rem'
 					skillButton
-					textColor='#333342'
-					font='inter-semibold'
-				/> */}
-				{/* <IconWithTextButton
-					text='Kotlin'
-					Icon={KotlinIcon}
-					borderRadius='6.25rem'
-					_border
-					imageSize='18rem'
-					skillButton
-					textColor='#334756'
+					hoverColor='#0288D1'
 					font='inter-semibold'
 				/>
+
 				<IconWithTextButton
 					text='C++'
 					Icon={CplusplusIcon}
 					borderRadius='6.25rem'
 					_border
-					imageSize='18rem'
+					imageSize='30rem'
 					skillButton
-					textColor='#334756'
+					hoverColor='#0060AA'
 					font='inter-semibold'
-				/> */}
+				/>
 			</div>
 		</div>
 	);

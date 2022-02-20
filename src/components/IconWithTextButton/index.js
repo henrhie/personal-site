@@ -1,29 +1,35 @@
-import React from 'react';
+import React, { useState } from 'react';
 
 import './Button.css';
 
 function IconWithTextButton({
-	_border,
 	borderRadius,
 	Icon,
 	text,
-	textColor,
+	hoverColor,
 	backgroundColor,
 	imageSize,
-	skillButton,
 	font,
 }) {
+	const [textColor, setTextColor] = useState('#000');
 	return (
 		<div
+			onMouseOver={() => {
+				setTextColor(hoverColor);
+			}}
+			onMouseLeave={() => setTextColor('#000')}
 			className='button-main'
 			style={{
-				border: _border ? ['1px solid #e4e8f1'] : '',
 				backgroundColor,
 				borderRadius,
 				display: 'flex',
 				justifyContent: 'center',
-				marginRight: skillButton ? '0.5rem' : '',
-				padding: skillButton ? `0.03rem 1rem` : `0.08rem 1rem`,
+				paddingTop: '0.1rem',
+				paddingBottom: '0.1rem',
+				paddingLeft: '0.4rem',
+				paddingRight: '0.9rem',
+				marginRight: '0.5rem',
+				marginBottom: '0.4rem',
 			}}>
 			<div
 				style={{
@@ -31,14 +37,14 @@ function IconWithTextButton({
 					flexDirection: 'row',
 					alignItems: 'center',
 				}}>
-				<img src={Icon} height={imageSize} width={imageSize} />
+				<img src={Icon} height={imageSize} width={imageSize} crossOrigin />
 				<p
 					style={{
 						letterSpacing: '-0.025rem',
 						fontFamily: font,
 						color: textColor,
 						fontSize: '0.9rem',
-						marginLeft: skillButton ? '0.2rem' : '0.4rem',
+						marginLeft: '0.5rem',
 					}}>
 					{text}
 				</p>
