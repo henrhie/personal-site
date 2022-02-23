@@ -1,7 +1,6 @@
 import React from 'react';
 
-import './infoSection.css';
-import verifiedIcon from '../../../assets/icons8-tiktok-verified-account.svg';
+import verifiedIcon from '../../assets/icons8-tiktok-verified-account.svg';
 
 function Dot() {
 	return (

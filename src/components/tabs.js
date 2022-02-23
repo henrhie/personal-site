@@ -1,7 +1,5 @@
 import React, { useState } from 'react';
 
-import './tabs.css';
-
 function Tab({ title, active, onTabClick }) {
 	return (
 		<div

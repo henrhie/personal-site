@@ -1,19 +1,15 @@
 import React from 'react';
 
-import InfoSection from '../InfoSection';
+import InfoSection from './info-section';
 
-import IconWithTextButton from '../IconWithTextButton';
-import ProfileImage from '../ProfileImage';
-import MessageIcon from '../../../assets/message-favorite.svg';
-import DocumentCodeIcon from '../../../assets/document-code.svg';
-import GithubIcon from '../../../assets/github.svg';
-import TwitterIcon from '../../../assets/twitter.svg';
-import LinkedInIcon from '../../../assets/linkedin.svg';
+import ProfileImage from './profile-image';
+import GithubIcon from '../../assets/github.svg';
+import TwitterIcon from '../../assets/twitter.svg';
+import LinkedInIcon from '../../assets/linkedin.svg';
 
-import './profileCard.css';
-import SkillsSection from '../SkillsSection';
-import Tabs from '../Tabs';
-import ItemCard from '../ItemCard';
+import SkillsSection from './skills-section';
+import Tabs from './tabs';
+import ItemCard from './item-card';
 
 function ProfileCard() {
 	return (

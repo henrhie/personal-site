@@ -1,14 +1,14 @@
 import React from 'react';
-import IconWithTextButton from '../IconWithTextButton';
+import IconWithTextButton from './button';
 
-import ReactIcon from '../../../assets/react-icon.png';
-import ReactNativeIcon from '../../../assets/react-native-icon.png';
-import TypescriptIcon from '../../../assets/typescript-icon.png';
-import GraphqlIcon from '../../../assets/graphql-icon.png';
-import CplusplusIcon from '../../../assets/cplusplus-icon.png';
-import ReduxIcon from '../../../assets/redux-icon.png';
-import JavascriptIcon from '../../../assets/javascript-icon.png';
-import DockerIcon from '../../../assets/docker-icon.png';
+import ReactIcon from '../../assets/react-icon.png';
+import ReactNativeIcon from '../../assets/react-native-icon.png';
+import TypescriptIcon from '../../assets/typescript-icon.png';
+import GraphqlIcon from '../../assets/graphql-icon.png';
+import CplusplusIcon from '../../assets/cplusplus-icon.png';
+import ReduxIcon from '../../assets/redux-icon.png';
+import JavascriptIcon from '../../assets/javascript-icon.png';
+import DockerIcon from '../../assets/docker-icon.png';
 
 function SkillsSection() {
 	return (

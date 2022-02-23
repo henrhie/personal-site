@@ -1,9 +1,7 @@
 import React from 'react';
 
-import backgroundImage from '../../../assets/figma.png';
-import ProfileCard from '../ProfileCard';
-
-import './landingPage.css';
+import backgroundImage from '../../assets/figma.png';
+import ProfileCard from './profile-card';
 
 function LandingPage() {
 	return (

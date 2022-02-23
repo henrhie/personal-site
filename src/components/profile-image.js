@@ -1,7 +1,6 @@
 import React from 'react';
 
-import './profileImage.css';
-import profileImage from '../../../assets/memoji.jpg';
+import profileImage from '../../assets/memoji.jpg';
 
 function ProfileImage() {
 	return (
