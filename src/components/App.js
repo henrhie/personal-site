@@ -3,11 +3,7 @@ import React from 'react';
 import LandingPage from '../components/landing-page';
 
 const App = () => {
-	return (
-		<>
-			<LandingPage />
-		</>
-	);
+	return <LandingPage />;
 };
 
 export default App;

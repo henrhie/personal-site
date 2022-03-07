@@ -8,7 +8,7 @@ import GraphqlIcon from '../../assets/graphql-icon.png';
 import CplusplusIcon from '../../assets/cplusplus-icon.png';
 import ReduxIcon from '../../assets/redux-icon.png';
 import JavascriptIcon from '../../assets/javascript-icon.png';
-import DockerIcon from '../../assets/docker-icon.png';
+import WebpackIcon from '../../assets/webpack-icon.png';
 
 function SkillsSection() {
 	return (
@@ -80,16 +80,6 @@ function SkillsSection() {
 					hoverColor='#EAD41C'
 					font='inter-semibold'
 				/>
-				<IconWithTextButton
-					text='Docker'
-					Icon={DockerIcon}
-					borderRadius='6.25rem'
-					_border
-					imageSize='30rem'
-					skillButton
-					hoverColor='#0288D1'
-					font='inter-semibold'
-				/>
 
 				<IconWithTextButton
 					text='C++'
@@ -99,6 +89,16 @@ function SkillsSection() {
 					imageSize='30rem'
 					skillButton
 					hoverColor='#0060AA'
+					font='inter-semibold'
+				/>
+				<IconWithTextButton
+					text='Webpack'
+					Icon={WebpackIcon}
+					borderRadius='6.25rem'
+					_border
+					imageSize='30rem'
+					skillButton
+					hoverColor='#26C6DA'
 					font='inter-semibold'
 				/>
 			</div>

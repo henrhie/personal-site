@@ -5,10 +5,13 @@ import ProfileCard from './profile-card';
 
 function LandingPage() {
 	return (
-		<div className='mainPage'>
-			<img src={backgroundImage} className='background-image' />
-			<ProfileCard />
-		</div>
+		<>
+			<section className='mainPage'>
+				<img src={backgroundImage} className='background-image' />
+				<ProfileCard />
+			</section>
+			<section className='tabs-page'></section>
+		</>
 	);
 }
 
