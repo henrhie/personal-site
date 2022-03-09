@@ -28,22 +28,27 @@ function IconWithTextButton({
 				paddingRight: '0.9rem',
 				marginRight: '0.5rem',
 				marginBottom: '0.4rem',
-			}}>
+			}}
+		>
 			<div
 				style={{
 					display: 'flex',
 					flexDirection: 'row',
 					alignItems: 'center',
-				}}>
+				}}
+			>
 				<img src={Icon} height={imageSize} width={imageSize} crossOrigin />
 				<p
 					style={{
-						letterSpacing: '-0.025rem',
-						fontFamily: font,
+						// letterSpacing: '-0.025rem',
+						fontFamily: 'neue-roman',
 						color: textColor,
 						fontSize: '0.9rem',
 						marginLeft: '0.5rem',
-					}}>
+						fontWeight: 'bold',
+						letterSpacing: '0.5px',
+					}}
+				>
 					{text}
 				</p>
 			</div>

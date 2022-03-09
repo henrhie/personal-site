@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { AppContext } from './AppContext';
 
 function Tab({ title, active, onTabClick }) {
 	return (
@@ -11,13 +12,15 @@ function Tab({ title, active, onTabClick }) {
 				flexDirection: 'column',
 				alignItems: 'center',
 				cursor: 'pointer',
-			}}>
+			}}
+		>
 			<p
 				style={{
 					marginTop: '0',
 					marginBottom: '0.3rem',
 					color: active ? '#646CEB' : '#333342',
-				}}>
+				}}
+			>
 				{title}
 			</p>
 			<div
@@ -28,13 +31,15 @@ function Tab({ title, active, onTabClick }) {
 					borderRadius: '6.25rem',
 					opacity: active ? 1 : 0,
 					transition: 'opacity 0.23s',
-				}}></div>
+				}}
+			></div>
 		</div>
 	);
 }
 
 function Tabs() {
 	const [activeTab, setActiveTab] = useState(0);
+	const context = React.useContext(AppContext);
 	return (
 		<div
 			className='tabs-main'
@@ -46,21 +51,31 @@ function Tabs() {
 				alignItems: 'center',
 				justifyContent: 'center',
 				width: '100%',
-			}}>
+			}}
+		>
 			<Tab
 				title='Projects'
 				active={activeTab === 0}
-				onTabClick={() => setActiveTab(0)}
+				onTabClick={() => {
+					setActiveTab(0);
+					context.actions.setCurrentTab(0);
+				}}
 			/>
 			<Tab
 				title='Experience'
 				active={activeTab === 1}
-				onTabClick={() => setActiveTab(1)}
+				onTabClick={() => {
+					setActiveTab(1);
+					context.actions.setCurrentTab(1);
+				}}
 			/>
 			<Tab
 				title='Blogs'
 				active={activeTab === 2}
-				onTabClick={() => setActiveTab(2)}
+				onTabClick={() => {
+					setActiveTab(2);
+					context.actions.setCurrentTab(2);
+				}}
 			/>
 		</div>
 	);

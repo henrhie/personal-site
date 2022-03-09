@@ -18,8 +18,9 @@ function SkillsSection() {
 					display: 'flex',
 					flexDirection: 'row',
 					flexWrap: 'wrap',
-					width: '75%',
-				}}>
+					width: '77%',
+				}}
+			>
 				<IconWithTextButton
 					text='React'
 					Icon={ReactIcon}
@@ -28,7 +29,7 @@ function SkillsSection() {
 					imageSize='30rem'
 					skillButton
 					hoverColor='#5DD3F3'
-					font='inter-semibold'
+					font='monaco'
 				/>
 				<IconWithTextButton
 					text='Redux'
