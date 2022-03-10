@@ -155,8 +155,8 @@ const ItemCard = ({ icon, project_name, project_desc, tools, link }) => {
 					>
 						<p
 							style={{
-								fontFamily: 'monaco',
-								letterSpacing: '-0.05rem',
+								fontFamily: 'neue-roman',
+								color: '#5C7AEA',
 								marginRight: '0.3rem',
 							}}
 						>

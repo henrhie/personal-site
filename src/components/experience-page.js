@@ -1,13 +1,8 @@
 import React from 'react';
 import ClockIcon from '../../assets/retro-clock.svg';
+import { experiences } from './data';
 
-const experienceTitles = [
-	'Software Engineer',
-	'Frontend Engineer',
-	'Software Engineering Mentorship Program',
-];
-
-function TimelineItem({ title }) {
+function TimelineItem({ title, company }) {
 	return (
 		<div className='timeline-item'>
 			<div
@@ -16,7 +11,6 @@ function TimelineItem({ title }) {
 					position: 'relative',
 					top: '-28px',
 					left: '-12px',
-					// backgroundColor: 'red',
 					alignItems: 'center',
 				}}
 			>
@@ -39,7 +33,7 @@ function TimelineItem({ title }) {
 				>
 					{title}&nbsp;-&nbsp;
 					<span>
-						<p style={{ margin: 0, fontFamily: 'neue-roman' }}>Stanbic Bank</p>
+						<p style={{ margin: 0, fontFamily: 'neue-roman' }}>{company}</p>
 					</span>
 				</h3>
 			</div>
@@ -48,8 +42,8 @@ function TimelineItem({ title }) {
 }
 
 const renderExperiences = () => {
-	return experienceTitles.map((title) => {
-		return <TimelineItem title={title} />;
+	return experiences.map(({ role, company }) => {
+		return <TimelineItem title={role} company={company} />;
 	});
 };
 
