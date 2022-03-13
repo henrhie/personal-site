@@ -12,15 +12,19 @@ import WebpackIcon from '../../assets/webpack-icon.png';
 
 function SkillsSection() {
 	return (
-		<div style={{ marginLeft: '2.7rem', marginTop: '1.2rem' }}>
+		<div
+			style={{
+				marginLeft: '2.7rem',
+				marginTop: '1.2rem',
+				marginBottom: '1.3rem',
+			}}>
 			<div
 				style={{
 					display: 'flex',
 					flexDirection: 'row',
 					flexWrap: 'wrap',
 					width: '77%',
-				}}
-			>
+				}}>
 				<IconWithTextButton
 					text='React'
 					Icon={ReactIcon}

@@ -20,6 +20,21 @@ function LandingPage() {
 				{context.store === 1 && <ExperiencePage />}
 				{context.store === 2 && <BlogPage />}
 			</section>
+			<footer>
+				<div
+					style={{
+						display: 'flex',
+						justifyContent: 'center',
+					}}>
+					<h4
+						style={{
+							fontFamily: 'neue-roman',
+							color: '#21325E',
+						}}>
+						Design inspired by Polywork. Built with ❣️in Accra
+					</h4>
+				</div>
+			</footer>
 		</>
 	);
 }

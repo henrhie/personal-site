@@ -4,6 +4,8 @@ import CycleGan from '../../assets/cyclegan.jpg';
 import XRay from '../../assets/x-ray.jpg';
 import Torchvision from '../../assets/torchvisions.jpg';
 import LossFunctions from '../../assets/pytorch-loss-functions.png';
+import Encoder from '../../assets/TensorFlow_variational_encoder1.webp';
+import TfPipeline from '../../assets/tfpipeline.jpeg';
 
 import VscodeIcon from '../../assets/icons8-visual-studio-code-2019 2.svg';
 import ReactNativeIcon from '../../assets/icons8-react-a-javascript-library-for-building-user-interfaces (1).svg';
@@ -15,6 +17,7 @@ export const blogs = [
 		blogDesc:
 			"In this tutorial we'll break down how to develop an automated image captioning system step-by-step using TensorFlow and Keras.",
 		blogUrl: 'https://blog.paperspace.com/image-captioning-with-ai/',
+		poweredBy: 'Paperspace',
 	},
 	{
 		image: Translation,
@@ -23,6 +26,7 @@ export const blogs = [
 			"Learn how to build build a recurrent neural network to do French to English translation using Google's open-source machine learning library, TensorFlow.​​",
 		blogUrl:
 			'https://blog.paperspace.com/neural-machine-translation-with-tensorflow/',
+		poweredBy: 'Paperspace',
 	},
 	{
 		image: CycleGan,
@@ -31,6 +35,7 @@ export const blogs = [
 			'This article gives insights into the working mechanism of a Generative Adversarial Network and one of its popular variants, the Cycle Consistent Adversarial Network.',
 		blogUrl:
 			'https://blog.paperspace.com/unpaired-image-to-image-translation-with-cyclegan/',
+		poweredBy: 'Paperspace',
 	},
 	{
 		image: XRay,
@@ -40,6 +45,7 @@ export const blogs = [
 			'In this post, we’ll build a machine learning pipeline to classify whether a patient has Pneumonia or not from chest x-ray images and then draw a heat-map on areas that the model used to make these decisions.',
 		blogUrl:
 			'https://blog.paperspace.com/detecting-and-localizing-pneumonia-from-chest-x-ray-scans-with-pytorch/',
+		poweredBy: 'Paperspace',
 	},
 	{
 		image: Torchvision,
@@ -47,6 +53,7 @@ export const blogs = [
 		blogDesc:
 			'Learn how to get access to models that have not yet been added to the Torchvision framework.',
 		blogUrl: 'https://blog.paperspace.com/going-beyond-torchvision-models/',
+		poweredBy: 'Paperspace',
 	},
 	{
 		image: LossFunctions,
@@ -54,6 +61,24 @@ export const blogs = [
 		blogDesc:
 			'Follow this guide to learn about the various loss functions available to use with PyTorch neural networks, and see how you can directly implement a custom loss function in their stead.',
 		blogUrl: 'https://blog.paperspace.com/pytorch-loss-functions/',
+		poweredBy: 'Paperspace',
+	},
+	{
+		image: Encoder,
+		blogTitle: 'How to Build a Variational Autoencoder with TensorFlow',
+		blogDesc:
+			'Learn the key parts of an autoencoder, how a variational autoencoder improves on it, and how to build and train a variational autoencoder using TensorFlow.',
+		blogUrl:
+			'https://www.allaboutcircuits.com/technical-articles/how-to-build-a-variational-autoencoder-with-tensorflow/',
+		poweredBy: 'Allaboutcircuits',
+	},
+	{
+		image: TfPipeline,
+		blogTitle: 'Building a Data Pipeline with TensorFlow',
+		blogDesc: 'Exploring the tf.data API in TensorFlow.',
+		blogUrl:
+			'https://heartbeat.comet.ml/building-a-data-pipeline-with-tensorflow-3047656b5095',
+		poweredBy: 'Hearbeat',
 	},
 ];
 
@@ -88,13 +113,31 @@ export const experiences = [
 	{
 		company: 'Stanbic Bank',
 		role: 'Software Engineer',
+		duties: [
+			' Developed monitoring pipelines for on-premise servers in Splunk.',
+			' Increased developer productivity by developing CI/CD pipelines using Azure Devops.',
+		],
+		date: 'November 2021 - Present',
 	},
 	{
 		company: 'Superworld',
 		role: 'Frontend Engineer',
+		duties: [
+			' Built different authentication strategies for our product’s back-end to enable users to choose from several options of authentication',
+			'Built highly reusable React components for our client-side application to drastically reduce repetitive code.',
+			'Collaborated with a small team of product designers, product managers and engineers to put together a build-to-production strategy for a new product on Trello.',
+		],
+		date: 'July - September 2020',
 	},
 	{
 		company: 'Facebook',
 		role: 'Software Engineering Mentorship Program',
+		duties: [
+			'Introduced to some important data structures and algorithms such as Trees and Recursions and how they areused in production code.',
+			'Demonstrated technical interview skills during mock interview sessions on typical software engineering interview questions.',
+			'Discussed with my technical mentor some of the tools and technologies used by Facebook to build their products and highly scalable infrastructure',
+			'Introduced to ways of identifying behavioral questions and using the STAR framework to structure answers to these questions.',
+		],
+		date: 'June - September 2020',
 	},
 ];

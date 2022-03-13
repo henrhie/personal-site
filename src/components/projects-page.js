@@ -23,7 +23,7 @@ export default function ProjectsPage() {
 		<div
 			style={{
 				position: 'relative',
-				top: '-5rem',
+				top: '-7rem',
 				width: '46rem',
 			}}
 		>

@@ -3,6 +3,7 @@ import React from 'react';
 import CollabIcon from '../../assets/icons8-portrait-of-a-classic-user-online-for-profile-picture.svg';
 import TagIcon from '../../assets/icons8-flat-discount-rate-of-about-ten-percent-at-e-commerce-store.svg';
 import CodeIcon from '../../assets/icons8-system-bug-isolated-on-a-white-background.svg';
+import SettingsIcon from '../../assets/icons8-tooth-gear-setting-logo-in-computer-operating-system.svg';
 import ArrowIcon from '../../assets/Arrow 2.svg';
 import ItemCardBubble from './item-card-bubble';
 
@@ -18,20 +19,8 @@ const ItemCard = ({ icon, project_name, project_desc, tools, link }) => {
 					display: 'flex',
 					justifyContent: 'center',
 					marginTop: '1.8rem',
-				}}
-			>
-				<img src={icon} />
-			</div>
-			<div
-				style={{
-					display: 'flex',
-					justifyContent: 'center',
-					marginTop: '0.6rem',
-				}}
-			>
-				<h1 style={{ fontFamily: 'neue-roman', letterSpacing: '0.5px' }}>
-					{project_name}
-				</h1>
+				}}>
+				{/* <img src={icon} /> */}
 			</div>
 			<div
 				style={{
@@ -39,8 +28,17 @@ const ItemCard = ({ icon, project_name, project_desc, tools, link }) => {
 					flexDirection: 'row',
 					marginTop: '2rem',
 					marginLeft: '1.8rem',
-				}}
-			>
+				}}>
+				<img src={SettingsIcon} style={{ marginRight: '1rem' }} />
+				<ItemCardBubble title={project_name} />
+			</div>
+			<div
+				style={{
+					display: 'flex',
+					flexDirection: 'row',
+					marginTop: '0.7rem',
+					marginLeft: '1.8rem',
+				}}>
 				<img src={CollabIcon} style={{ marginRight: '1rem' }} />
 				<ItemCardBubble title='Henry Ansah' />
 			</div>
@@ -51,16 +49,14 @@ const ItemCard = ({ icon, project_name, project_desc, tools, link }) => {
 					marginTop: '0.7rem',
 					marginLeft: '1.8rem',
 					alignItems: 'flex-start',
-				}}
-			>
+				}}>
 				<img src={TagIcon} style={{ marginRight: '1rem' }} />
 				<div
 					style={{
 						display: 'flex',
 						flexWrap: 'wrap',
 						width: '80%',
-					}}
-				>
+					}}>
 					<ToolsSection tools={tools} />
 				</div>
 			</div>
@@ -68,11 +64,10 @@ const ItemCard = ({ icon, project_name, project_desc, tools, link }) => {
 				style={{
 					display: 'flex',
 					flexDirection: 'row',
-					marginTop: '1.8rem',
+					marginTop: '1.1rem',
 					marginLeft: '1.8rem',
 					alignItems: 'start',
-				}}
-			>
+				}}>
 				<img src={CodeIcon} style={{ marginRight: '1rem' }} />
 				<div
 					style={{
@@ -83,21 +78,18 @@ const ItemCard = ({ icon, project_name, project_desc, tools, link }) => {
 						flexDirection: 'column',
 						justifyContent: 'center',
 						boxShadow: '0px 2px 4px rgba(0,0,0,0.1)',
-					}}
-				>
+					}}>
 					<div
 						style={{
 							borderBottom: '0.01px solid #EFEFEF',
 							backgroundColor: '#FBFBFB',
-						}}
-					>
+						}}>
 						<div
 							style={{
 								display: 'flex',
 								margin: '0.6rem 0',
 								marginLeft: '0.5rem',
-							}}
-						>
+							}}>
 							<div
 								style={{
 									height: '8px',
@@ -105,8 +97,7 @@ const ItemCard = ({ icon, project_name, project_desc, tools, link }) => {
 									backgroundColor: '#CCD1E4',
 									borderRadius: '10000px',
 									marginRight: '0.4rem',
-								}}
-							></div>
+								}}></div>
 							<div
 								style={{
 									height: '8px',
@@ -114,16 +105,14 @@ const ItemCard = ({ icon, project_name, project_desc, tools, link }) => {
 									backgroundColor: '#CCD1E4',
 									borderRadius: '100000px',
 									marginRight: '0.4rem',
-								}}
-							></div>
+								}}></div>
 							<div
 								style={{
 									height: '8px',
 									width: '8px',
 									backgroundColor: '#CCD1E4',
 									borderRadius: '100000px',
-								}}
-							></div>
+								}}></div>
 						</div>
 					</div>
 					<p
@@ -133,8 +122,7 @@ const ItemCard = ({ icon, project_name, project_desc, tools, link }) => {
 							fontWeight: 'bold',
 							padding: '0 0.8rem',
 							color: '#334756',
-						}}
-					>
+						}}>
 						{project_desc}
 					</p>
 				</div>
@@ -144,22 +132,19 @@ const ItemCard = ({ icon, project_name, project_desc, tools, link }) => {
 					display: 'flex',
 					justifyContent: 'flex-end',
 					paddingRight: '1rem',
-				}}
-			>
+				}}>
 				<a href={link} target='_blank'>
 					<div
 						style={{
 							display: 'flex',
 							alignItems: 'center',
-						}}
-					>
+						}}>
 						<p
 							style={{
 								fontFamily: 'neue-roman',
 								color: '#5C7AEA',
 								marginRight: '0.3rem',
-							}}
-						>
+							}}>
 							view project
 						</p>
 						<img src={ArrowIcon} />

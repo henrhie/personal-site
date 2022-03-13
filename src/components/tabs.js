@@ -12,15 +12,14 @@ function Tab({ title, active, onTabClick }) {
 				flexDirection: 'column',
 				alignItems: 'center',
 				cursor: 'pointer',
-			}}
-		>
+			}}>
 			<p
 				style={{
 					marginTop: '0',
 					marginBottom: '0.3rem',
-					color: active ? '#646CEB' : '#333342',
-				}}
-			>
+					color: active ? '#646CEB' : '#21325E',
+					fontFamily: 'neue-medium',
+				}}>
 				{title}
 			</p>
 			<div
@@ -31,8 +30,7 @@ function Tab({ title, active, onTabClick }) {
 					borderRadius: '6.25rem',
 					opacity: active ? 1 : 0,
 					transition: 'opacity 0.23s',
-				}}
-			></div>
+				}}></div>
 		</div>
 	);
 }
@@ -51,8 +49,7 @@ function Tabs() {
 				alignItems: 'center',
 				justifyContent: 'center',
 				width: '100%',
-			}}
-		>
+			}}>
 			<Tab
 				title='Projects'
 				active={activeTab === 0}
