@@ -10,14 +10,16 @@ export default function BlogItem({
 	return (
 		<div
 			className='item-card'
-			style={{ display: 'flex', flexDirection: 'column' }}>
+			style={{ display: 'flex', flexDirection: 'column' }}
+		>
 			<div
 				style={{
 					display: 'flex',
 					padding: '1.5rem 1.2rem',
 					paddingBottom: '0',
 					flexDirection: 'row',
-				}}>
+				}}
+			>
 				<img
 					src={image}
 					style={{
@@ -37,7 +39,8 @@ export default function BlogItem({
 						fontFamily: 'neue-roman',
 						color: '#4B6587',
 						lineHeight: '20px',
-					}}>
+					}}
+				>
 					{blogDesc}
 				</p>
 			</div>
@@ -48,7 +51,8 @@ export default function BlogItem({
 					alignItems: 'center',
 					marginBottom: '0',
 					marginTop: 'auto',
-				}}>
+				}}
+			>
 				<a href={blogUrl} target='_blank'>
 					<p
 						className='readmore-p'
@@ -56,12 +60,12 @@ export default function BlogItem({
 							fontFamily: 'neue-roman',
 							fontSize: '14px',
 							color: '#5C7AEA',
-						}}>
+						}}
+					>
 						Read More
 					</p>
 				</a>
-				<a
-					href='https://blog.paperspace.com'
+				<div
 					style={{
 						display: 'flex',
 						justifyContent: 'center',
@@ -69,18 +73,18 @@ export default function BlogItem({
 						backgroundColor: '#E1E5EA',
 						borderRadius: '4px',
 						marginLeft: 'auto',
-					}}>
-					<div>
-						<h5
-							style={{
-								fontFamily: 'neue-medium',
-								margin: 0,
-								color: '#393E46',
-							}}>
-							Powered by <span>{poweredBy}</span>
-						</h5>
-					</div>
-				</a>
+					}}
+				>
+					<h5
+						style={{
+							fontFamily: 'neue-medium',
+							margin: 0,
+							color: '#393E46',
+						}}
+					>
+						Powered by <span>{poweredBy}</span>
+					</h5>
+				</div>
 			</div>
 		</div>
 	);
