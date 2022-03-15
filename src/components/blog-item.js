@@ -59,10 +59,10 @@ export default function BlogItem({
 						style={{
 							fontFamily: 'neue-roman',
 							fontSize: '14px',
-							color: '#5C7AEA',
+							color: '#36a2cd',
 						}}
 					>
-						Read More
+						Read More →
 					</p>
 				</a>
 				<div

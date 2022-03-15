@@ -42,6 +42,10 @@ a {
 	text-decoration: none;
 }
 
+.view-more:hover {
+	text-decoration: underline;
+}
+
 li {
 	margin: 1rem 0.3rem;
 	font-family: neue-roman;
