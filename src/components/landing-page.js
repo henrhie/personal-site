@@ -22,14 +22,18 @@ function LandingPage() {
 			</section>
 			<footer>
 				<div
+					className='footer-inner'
 					style={{
 						display: 'flex',
 						justifyContent: 'center',
+						backgroundColor: '#21325E',
 					}}>
 					<h4
 						style={{
 							fontFamily: 'neue-roman',
-							color: '#21325E',
+							color: '#fff',
+							padding: '0',
+							textAlign: 'center',
 						}}>
 						Design inspired by Polywork. Built with ❣️in Accra
 					</h4>

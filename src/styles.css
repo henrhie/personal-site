@@ -295,4 +295,10 @@ h1 {
 	.status {
 		margin-left: 25px;
 	}
+
+	.footer-inner {
+		margin-top: 50px;
+		margin-bottom: 30px;
+		padding: 0 20px;
+	}
 }
