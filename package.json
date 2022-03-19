@@ -9,11 +9,9 @@
 	"keywords": [],
 	"author": "Henry Ansah",
 	"license": "ISC",
-	"devDependencies": {
-		"parcel": "^2.3.1"
-	},
 	"dependencies": {
 		"react": "^17.0.2",
-		"react-dom": "^17.0.2"
+		"react-dom": "^17.0.2",
+		"parcel": "^2.3.1"
 	}
 }
