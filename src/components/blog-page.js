@@ -18,21 +18,8 @@ const renderBlogs = () => {
 
 export default function BlogPage() {
 	return (
-		<div
-			style={{
-				position: 'relative',
-				top: '-7rem',
-				width: '46rem',
-			}}>
-			<div
-				style={{
-					display: 'flex',
-					flexDirection: 'row',
-					justifyContent: 'space-between',
-					flexWrap: 'wrap',
-				}}>
-				{renderBlogs()}
-			</div>
+		<div className='blog-page'>
+			<div className='blog-page-inner'>{renderBlogs()}</div>
 		</div>
 	);
 }

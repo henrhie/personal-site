@@ -20,23 +20,8 @@ const renderProjectCard = () => {
 
 export default function ProjectsPage() {
 	return (
-		<div
-			style={{
-				position: 'relative',
-				top: '-7rem',
-				width: '46rem',
-			}}
-		>
-			<div
-				style={{
-					display: 'flex',
-					flexDirection: 'row',
-					justifyContent: 'space-between',
-					flexWrap: 'wrap',
-				}}
-			>
-				{renderProjectCard()}
-			</div>
+		<div className='projects-page'>
+			<div className='projects-page-inner'>{renderProjectCard()}</div>
 		</div>
 	);
 }

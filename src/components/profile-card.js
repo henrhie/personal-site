@@ -21,16 +21,9 @@ function ProfileCard() {
 							display: 'flex',
 							flexDirection: 'row',
 							justifyContent: 'flex-end',
-						}}
-					>
-						<div
-							style={{
-								display: 'flex',
-								flexDirection: 'row',
-								marginRight: '2.2rem',
-								marginTop: '1.5rem',
-							}}
-						>
+							// marginTop: '1.5rem',
+						}}>
+						<div className='socials'>
 							<a href='https://github.com/henrhie' target='_blank'>
 								<img src={GithubIcon} style={{ marginRight: '1.4rem' }} />
 							</a>
@@ -39,8 +32,7 @@ function ProfileCard() {
 							</a>
 							<a
 								href='https://www.linkedin.com/in/henry-ansah-6a8b84167/'
-								target='_blank'
-							>
+								target='_blank'>
 								<img src={LinkedInIcon} style={{ marginRight: '1.4rem' }} />
 							</a>
 						</div>

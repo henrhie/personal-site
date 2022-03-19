@@ -20,29 +20,14 @@ function Dot() {
 function InfoSection() {
 	return (
 		<div>
-			<div
-				style={{
-					marginLeft: '2.8rem',
-					display: 'flex',
-					flexDirection: 'row',
-					alignItems: 'center',
-					marginTop: '1.2rem',
-				}}>
+			<div className='info-section'>
 				<h1>Henry Ansah</h1>
 				<img
 					src={verifiedIcon}
 					style={{ height: '1.7rem', width: '1.7rem', marginLeft: '0.3rem' }}
 				/>
 			</div>
-			<div
-				className='status'
-				style={{
-					marginLeft: '2.8rem',
-					marginTop: '0.5rem',
-					display: 'flex',
-					flexDirection: 'row',
-					alignItems: 'center',
-				}}>
+			<div className='status'>
 				<p>Software @Stanbic</p>
 				<Dot />
 				<p>Accra, Ghana</p>
