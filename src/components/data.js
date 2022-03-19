@@ -119,7 +119,7 @@ export const projects = [
 		image: VscodeIcon,
 		tags: ['esbuild', 'flow', 'babel', 'code transpilation', 'plugins'],
 		projectDesc:
-			"Esbuild-plugin-babel-flow under the hood uses babel's transform api and @babel/preset-flow to strip javascript code of flow annotations for safe execution in a javascript environment",
+			"Esbuild-plugin-babel-flow uses babel's transform api and @babel/preset-flow to strip javascript code of flow annotations",
 		projectUrl: 'https://github.com/henrhie/esbuild-plugin-babel-flow',
 	},
 	{
