@@ -100,12 +100,42 @@ export const projects = [
 		projectUrl: 'https://github.com/henrhie/react-native-sha',
 	},
 	{
-		project_title: 'Note.js',
+		project_title: 'Tikity',
 		image: VscodeIcon,
-		tags: ['vscode', 'javascript', 'react', 'frontend', 'extension'],
+		tags: [
+			'microservices',
+			'docker',
+			'kubernetes',
+			'next.js',
+			'redis',
+			'scalability',
+		],
 		projectDesc:
-			'Note.js is a vscode extension that allows developers to quickly prototype their frontend projects in vscode',
-		projectUrl: 'https://github.com/henrhie/Note.js',
+			'Tikity is a ticket reservation platform built with scalability in mind. It uses a microservice architecture',
+		projectUrl: 'https://github.com/henrhie/tikity',
+	},
+	{
+		project_title: 'Esbuild-plugin-babel-flow',
+		image: VscodeIcon,
+		tags: ['esbuild', 'flow', 'babel', 'code transpilation', 'plugins'],
+		projectDesc:
+			"Esbuild-plugin-babel-flow under the hood uses babel's transform api and @babel/preset-flow to strip javascript code of flow annotations for safe execution in a javascript environment",
+		projectUrl: 'https://github.com/henrhie/esbuild-plugin-babel-flow',
+	},
+	{
+		project_title: 'parcel-transformer-hjson',
+		image: VscodeIcon,
+		tags: [
+			'parcel',
+			'code transpilation',
+			'plugin',
+			'hjson',
+			'json',
+			'readable',
+		],
+		projectDesc:
+			'A Parcel plugin that allows developers to write json files as hjson (human-readable json) and import them in their javascript modules',
+		projectUrl: 'https://github.com/henrhie/parcel-transformer-hjson',
 	},
 ];
 

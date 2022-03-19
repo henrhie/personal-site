@@ -4,21 +4,14 @@ import { experiences } from './data';
 
 const renderDuties = (duties) => {
 	return duties.map((duty) => {
-		return <li>{duty}</li>;
+		return <li style={{}}>{duty}</li>;
 	});
 };
 
 function TimelineItem({ title, company, duties, date }) {
 	return (
 		<div className='timeline-item'>
-			<div
-				style={{
-					display: 'flex',
-					position: 'relative',
-					top: '-28px',
-					left: '-12px',
-					alignItems: 'center',
-				}}>
+			<div className='timeline-item-inner-heading'>
 				<img
 					src={ClockIcon}
 					style={{
@@ -30,14 +23,20 @@ function TimelineItem({ title, company, duties, date }) {
 						margin: '0',
 						display: 'flex',
 						alignItems: 'center',
-						fontFamily: 'neue-roman',
+						fontFamily: 'neue-medium',
 						fontSize: '16px',
 						color: '#21325E',
 						letterSpacing: '0.7px',
 					}}>
-					{title}&nbsp;-&nbsp;
+					{title}&nbsp;&nbsp;
 					<span>
-						<p style={{ margin: 0, fontFamily: 'neue-roman' }}>{company}</p>
+						<p
+							style={{
+								margin: 0,
+								fontFamily: 'neue-medium',
+							}}>
+							{company}
+						</p>
 					</span>
 				</h3>
 				<p
@@ -53,7 +52,9 @@ function TimelineItem({ title, company, duties, date }) {
 				</p>
 			</div>
 			<div style={{ position: 'relative', top: '-24px' }}>
-				<ul>{renderDuties(duties)}</ul>
+				<ul style={{ padding: '0 2rem', paddingRight: '1.3rem' }}>
+					{renderDuties(duties)}
+				</ul>
 			</div>
 		</div>
 	);
@@ -73,5 +74,9 @@ const renderExperiences = () => {
 };
 
 export default function ExperiencePage() {
-	return <div className='timeline'>{renderExperiences()}</div>;
+	return (
+		<div className='timeline'>
+			<div className='timeline-inner'>{renderExperiences()}</div>
+		</div>
+	);
 }

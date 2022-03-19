@@ -85,7 +85,7 @@ li {
 	display: flex;
 	height: 2.5rem;
 	cursor: pointer;
-	border: 0.2px solid #e4e8f1;
+	border: 1px solid #e4e8f1;
 }
 
 .button-main:hover {
@@ -213,8 +213,8 @@ h1 {
 
 .timeline {
 	width: 46rem;
-	/* position: relative; */
-	/* top: -5rem; */
+	position: relative;
+	top: -5rem;
 }
 
 .blog-page {
@@ -230,7 +230,27 @@ h1 {
 	flex-wrap: wrap;
 }
 
+.timeline-item-inner-heading {
+	display: flex;
+	position: relative;
+	top: -28px;
+	left: -12px;
+	align-items: center;
+	/* background-color: red; */
+}
+
 @media screen and (max-width: 700px) {
+	.timeline-item-inner-heading {
+		left: 0;
+		flex-wrap: wrap;
+		padding: 0.2rem 1rem;
+		/* background-color: rebeccapurple; */
+	}
+
+	.timeline-item-inner-heading img {
+		display: none;
+	}
+
 	.projects-page {
 		position: unset;
 		width: 100vw;
@@ -251,7 +271,8 @@ h1 {
 
 	.timeline {
 		width: 100vw;
-		position: unset;
+		position: relative;
+		top: 2rem;
 	}
 
 	.background-image {
@@ -298,7 +319,6 @@ h1 {
 
 	.footer-inner {
 		margin-top: 50px;
-		margin-bottom: 30px;
 		padding: 0 20px;
 	}
 }

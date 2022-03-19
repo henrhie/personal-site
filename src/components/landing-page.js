@@ -20,13 +20,15 @@ function LandingPage() {
 				{context.store === 1 && <ExperiencePage />}
 				{context.store === 2 && <BlogPage />}
 			</section>
-			<footer>
+			<footer
+				style={{
+					backgroundColor: '#533E85',
+				}}>
 				<div
 					className='footer-inner'
 					style={{
 						display: 'flex',
 						justifyContent: 'center',
-						backgroundColor: '#21325E',
 					}}>
 					<h4
 						style={{

@@ -21,7 +21,6 @@ function ProfileCard() {
 							display: 'flex',
 							flexDirection: 'row',
 							justifyContent: 'flex-end',
-							// marginTop: '1.5rem',
 						}}>
 						<div className='socials'>
 							<a href='https://github.com/henrhie' target='_blank'>
