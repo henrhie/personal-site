@@ -88,7 +88,7 @@ export const projects = [
 		image: VscodeIcon,
 		tags: ['vscode', 'javascript', 'react', 'frontend', 'extension'],
 		projectDesc:
-			'Note.js is a vscode extension that allows developers to quickly prototype their frontend projects in vscode',
+			'Note.js is a vscode extension that allows developers to quickly prototype their frontend projects in vscode.',
 		projectUrl: 'https://github.com/henrhie/Note.js',
 	},
 	{
@@ -96,8 +96,24 @@ export const projects = [
 		image: ReactNativeIcon,
 		tags: ['react native', 'c++', 'java', 'javascript', 'android'],
 		projectDesc:
-			'React Native SHA is a Blazing fast ⚡⚡⚡ Secure Hash Algorithm solution for React Native with direct C++ bindings',
+			'React Native SHA is a Blazing fast ⚡⚡⚡ Secure Hash Algorithm solution for React Native with direct C++ bindings.',
 		projectUrl: 'https://github.com/henrhie/react-native-sha',
+	},
+	{
+		project_title: 'swc-webpack-minify',
+		image: ReactNativeIcon,
+		tags: [
+			'webpack',
+			'swc',
+			'plugin',
+			'terser',
+			'javascript',
+			'bundler',
+			'rust',
+		],
+		projectDesc:
+			'Webpack plugin that utilizes the speed of the swc minifier (written in Rust) to generate optimized bundles for browsers.',
+		projectUrl: 'https://github.com/henrhie/swc-webpack-minifier',
 	},
 	{
 		project_title: 'Tikity',
@@ -111,7 +127,7 @@ export const projects = [
 			'scalability',
 		],
 		projectDesc:
-			'Tikity is a ticket reservation platform built with scalability in mind. It uses a microservice architecture',
+			'Tikity is a ticket reservation platform built with scalability in mind. It uses a microservice architecture.',
 		projectUrl: 'https://github.com/henrhie/tikity',
 	},
 	{
@@ -119,7 +135,7 @@ export const projects = [
 		image: VscodeIcon,
 		tags: ['esbuild', 'flow', 'babel', 'code transpilation', 'plugins'],
 		projectDesc:
-			"Esbuild-plugin-babel-flow uses babel's transform api and @babel/preset-flow to strip javascript code of flow annotations",
+			"Esbuild-plugin-babel-flow uses babel's transform api and @babel/preset-flow to strip javascript code of flow type annotations .",
 		projectUrl: 'https://github.com/henrhie/esbuild-plugin-babel-flow',
 	},
 	{
@@ -134,7 +150,7 @@ export const projects = [
 			'readable',
 		],
 		projectDesc:
-			'A Parcel plugin that allows developers to write json files as hjson (human-readable json) and import them in their javascript modules',
+			'A Parcel plugin that allows developers to write json files as hjson (human-readable json) and import them in their javascript modules.',
 		projectUrl: 'https://github.com/henrhie/parcel-transformer-hjson',
 	},
 ];
