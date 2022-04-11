@@ -6,6 +6,7 @@ import Torchvision from '../../assets/torchvisions.jpg';
 import LossFunctions from '../../assets/pytorch-loss-functions.png';
 import Encoder from '../../assets/TensorFlow_variational_encoder1.webp';
 import TfPipeline from '../../assets/tfpipeline.jpeg';
+import FGSMImage from '../../assets/fggm.webp';
 
 import VscodeIcon from '../../assets/icons8-visual-studio-code-2019 2.svg';
 import ReactNativeIcon from '../../assets/icons8-react-a-javascript-library-for-building-user-interfaces (1).svg';
@@ -36,6 +37,16 @@ export const blogs = [
 		blogUrl:
 			'https://blog.paperspace.com/unpaired-image-to-image-translation-with-cyclegan/',
 		poweredBy: 'Paperspace',
+	},
+	{
+		image: FGSMImage,
+		blogTitle:
+			'Adversarial Attacks on Neural Networks: Exploring the Fast Gradient Sign Method',
+		blogDesc:
+			'This article captures the details of how to fool a neural network into making wrong predictions using a very fascinating technique - FGSM.',
+		blogUrl:
+			'https://neptune.ai/blog/adversarial-attacks-on-neural-networks-exploring-the-fast-gradient-sign-method',
+		poweredBy: 'Neptune.ai',
 	},
 	{
 		image: XRay,
@@ -153,6 +164,23 @@ export const projects = [
 			'A Parcel plugin that allows developers to write json files as hjson (human-readable json) and import them in their javascript modules.',
 		projectUrl: 'https://github.com/henrhie/parcel-transformer-hjson',
 	},
+	{
+		project_title: 'Sensor Fusion Kalman Filter',
+		image: VscodeIcon,
+		tags: ['kalman filter', 'sensor fusion', 'perception', 'lidar', 'sensor'],
+		projectDesc:
+			'In this project,  An Unscented Kalman Filter is used to estimate the state of multiple cars on a highway using noisy lidar and radar measurements.',
+		projectUrl:
+			'https://github.com/henrhie/Sensor-Fusion-Unscented-Kalman-Filter',
+	},
+	{
+		project_title: 'Lidar Obstacle Detection',
+		image: VscodeIcon,
+		tags: ['lidar', 'ransac', 'clustering', 'perception', 'pcl'],
+		projectDesc:
+			'In this project, we cluster and draw bounding boxes around obstacles in a sequence of lidar point cloud data using custom c++ algorithms and PCL',
+		projectUrl: 'https://github.com/henrhie/Lidar-Obstacle-Detection',
+	},
 ];
 
 export const experiences = [
@@ -179,10 +207,9 @@ export const experiences = [
 		company: 'Facebook',
 		role: 'Software Engineering Mentorship Program',
 		duties: [
-			'Introduced to some important data structures and algorithms such as Trees and Recursions and how they areused in production code.',
+			'Introduced to some important data structures and algorithms such as Trees and Recursions and how they are used in production code.',
 			'Demonstrated technical interview skills during mock interview sessions on typical software engineering interview questions.',
-			'Discussed with my technical mentor some of the tools and technologies used by Facebook to build their products and highly scalable infrastructure',
-			'Introduced to ways of identifying behavioral questions and using the STAR framework to structure answers to these questions.',
+			'Discussed with my technical mentor some of the tools and technologies used by Facebook to build their products.',
 		],
 		date: 'June - September 2020',
 	},
