@@ -190,7 +190,7 @@ export const experiences = [
 		duties: [
 			'Developed monitoring dashboard for banking services in Splunk.',
 			'Collaborated to build management systems to be used internally for logging equipment metrics and stocks.',
-			'Responded and report daily on critical incidents to maintain uptime of services at 98%.'
+			'Responded and report daily on critical incidents to ensure uptime of services at 98%.'
 		],
 		date: 'Nov 2021 - Present',
 	},
