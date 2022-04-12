@@ -37,7 +37,7 @@ function LandingPage() {
 							padding: '0',
 							textAlign: 'center',
 						}}>
-						Design inspired by Polywork. Built with ❣️in Accra
+						Design inspired by Polywork. Built with ❣️ in Accra
 					</h4>
 				</div>
 			</footer>

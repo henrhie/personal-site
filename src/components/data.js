@@ -186,31 +186,40 @@ export const projects = [
 export const experiences = [
 	{
 		company: 'Stanbic Bank',
-		role: 'Software Engineer',
+		role: 'Site Reliability Engineer,',
 		duties: [
-			' Developed monitoring pipelines for on-premise servers in Splunk.',
-			' Increased developer productivity by developing CI/CD pipelines using Azure Devops.',
+			'Developed monitoring dashboard for banking services in Splunk.',
+			'Collaborated to build management systems to be used internally for logging equipment metrics and stocks.',
+			'Responded and report daily on critical incidents to maintain uptime of services at 98%.'
 		],
-		date: 'November 2021 - Present',
+		date: 'Nov 2021 - Present',
 	},
 	{
 		company: 'Superworld',
-		role: 'Frontend Engineer',
+		role: 'Frontend Engineering Intern,',
 		duties: [
-			' Built different authentication strategies for our product’s back-end to enable users to choose from several options of authentication',
-			'Built highly reusable React components for our client-side application to drastically reduce repetitive code.',
-			'Collaborated with a small team of product designers, product managers and engineers to put together a build-to-production strategy for a new product on Trello.',
+			'Collaborated effectivey to refactor legacy client code using modern practices to reduce code repetitiveness by 30%.',
+			' Built different authentication strategies for our product’s back-end to enable users to choose from several options of authentication.',
+			'Actively contributed to discussions with teams of product designers, product managers and engineers on a build-to-production strategy for a new product.',
 		],
-		date: 'July - September 2020',
+		date: 'July 2020 - Sept 2020',
 	},
 	{
 		company: 'Facebook',
-		role: 'Software Engineering Mentorship Program',
+		role: 'Software Engineering Mentorship Program,',
 		duties: [
 			'Introduced to some important data structures and algorithms such as Trees and Recursions and how they are used in production code.',
 			'Demonstrated technical interview skills during mock interview sessions on typical software engineering interview questions.',
-			'Discussed with my technical mentor some of the tools and technologies used by Facebook to build their products.',
+			'Held discussions with my technical mentor on some of the tools and technologies used by Facebook.',
 		],
-		date: 'June - September 2020',
+		date: 'June 2020 - Sept 2020',
+	},
+	{
+		company: 'KNUST.',
+		role: 'Electrical Engineering,',
+		duties: [
+			'Relevant courses: Introduction to C, Digital Computer Design, Calculus, Numerical Analysis, Statistics',
+		],
+		date: 'Sept 2017 - Nov 2021',
 	},
 ];
