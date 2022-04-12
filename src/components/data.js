@@ -107,7 +107,7 @@ export const projects = [
 		image: ReactNativeIcon,
 		tags: ['react native', 'c++', 'java', 'javascript', 'android'],
 		projectDesc:
-			'React Native SHA is a Blazing fast ⚡⚡⚡ Secure Hash Algorithm solution for React Native with direct C++ bindings.',
+			'React Native SHA is a Blazing fast Secure Hash Algorithm solution for React Native with direct C++ bindings.',
 		projectUrl: 'https://github.com/henrhie/react-native-sha',
 	},
 	{
