@@ -199,8 +199,8 @@ h1 {
 }
 
 .projects-page {
-	position: relative;
-	top: -7rem;
+	/* position: relative; */
+	/* top: -7rem; */
 	width: 46rem;
 }
 
@@ -213,13 +213,14 @@ h1 {
 
 .timeline {
 	width: 46rem;
-	position: relative;
-	top: -5rem;
+	margin-top: 1.8rem;
+	/* position: relative;
+	top: -5rem; */
 }
 
 .blog-page {
-	position: relative;
-	top: -7rem;
+	/* position: relative;
+	top: -7rem; */
 	width: 46rem;
 }
 
@@ -240,11 +241,14 @@ h1 {
 }
 
 @media screen and (max-width: 700px) {
+	.tabs-page {
+		margin-top: 20%;
+	}
+
 	.timeline-item-inner-heading {
 		left: 0;
 		flex-wrap: wrap;
 		padding: 0.2rem 1rem;
-		/* background-color: rebeccapurple; */
 	}
 
 	.timeline-item-inner-heading img {
@@ -271,17 +275,16 @@ h1 {
 
 	.timeline {
 		width: 100vw;
-		position: relative;
 		top: 2rem;
 	}
 
-	.background-image {
+	/* .background-image {
 		height: 30vh;
-	}
+	} */
 
-	.main-card-wrapper {
+	/* .main-card-wrapper {
 		margin-top: 80px;
-	}
+	} */
 
 	.main-card {
 		border-bottom-left-radius: 0;
