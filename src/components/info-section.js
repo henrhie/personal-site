@@ -24,7 +24,7 @@ function InfoSection() {
 				<h1>Henry Ansah</h1>
 				<img
 					src={verifiedIcon}
-					style={{ height: '1.7rem', width: '1.7rem', marginLeft: '0.3rem' }}
+					style={{ height: '1.35rem', width: '1.35rem', marginLeft: '0.3rem' }}
 				/>
 			</div>
 			<div className='status'>

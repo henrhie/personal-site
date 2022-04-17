@@ -9,6 +9,7 @@ import CplusplusIcon from '../../assets/cplusplus-icon.png';
 import ReduxIcon from '../../assets/redux-icon.png';
 import JavascriptIcon from '../../assets/javascript-icon.png';
 import WebpackIcon from '../../assets/webpack-icon.png';
+import MachineLearningIcon from '../../assets/machinelearningpng.png';
 
 function SkillsSection() {
 	return (
@@ -92,6 +93,16 @@ function SkillsSection() {
 					imageSize='30rem'
 					skillButton
 					hoverColor='#26C6DA'
+					font='inter-semibold'
+				/>
+				<IconWithTextButton
+					text='Machine Learning'
+					Icon={MachineLearningIcon}
+					borderRadius='6.25rem'
+					_border
+					imageSize='30rem'
+					skillButton
+					hoverColor='#7027A0'
 					font='inter-semibold'
 				/>
 			</div>
