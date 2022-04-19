@@ -199,7 +199,7 @@ export const experiences = [
 		company: 'Superworld',
 		role: 'Frontend Engineering Intern,',
 		duties: [
-			'Collaborated effectivey to refactor legacy client code using modern practices to reduce code repetitiveness by 30%.',
+			'Collaborated effectively to refactor legacy client code using modern practices to reduce code repetitiveness by 30%.',
 			' Built different authentication strategies for our product’s back-end to enable users to choose from several options of authentication.',
 			'Actively contributed to discussions with teams of product designers, product managers and engineers on a build-to-production strategy for a new product.',
 		],
