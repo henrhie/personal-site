@@ -188,9 +188,10 @@ export const experiences = [
 		company: 'Stanbic Bank',
 		role: 'Site Reliability Engineer,',
 		duties: [
-			'Developed monitoring dashboard for banking services in Splunk.',
-			'Collaborated to build management systems to be used internally for logging equipment metrics and stocks.',
-			'Responded and report daily on critical incidents to ensure uptime of services at 98%.'
+			'Developed monitoring dashboards for banking services in Splunk.',
+			'Collaborated to build management systems in Angular and Node to be used internally for logging equipment metrics and stocks.',
+			'Responded and reported on critical incidents on time to ensure uptime of services at 98%.',
+			'Generated reports and graphs on software and hardware services health for internal and external auditing.'
 		],
 		date: 'Nov 2021 - Present',
 	},
@@ -218,7 +219,7 @@ export const experiences = [
 		company: 'KNUST.',
 		role: 'Electrical Engineering,',
 		duties: [
-			'Relevant courses: Introduction to C, Digital Computer Design, Calculus, Numerical Analysis, Statistics',
+			'Relevant courses: Introduction to C, Digital Computer Design, Digital Control Systems, Multivariable Calculus, Numerical Analysis, Statistics',
 		],
 		date: 'Sept 2017 - Nov 2021',
 	},
