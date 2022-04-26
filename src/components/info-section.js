@@ -6,11 +6,11 @@ function Dot() {
 	return (
 		<div
 			style={{
-				height: '0.1rem',
-				width: '0.1rem',
+				height: '0.2rem',
+				width: '0.2rem',
 				backgroundColor: 'black',
-				marginLeft: '1rem',
-				marginRight: '1rem',
+				marginLeft: '0.5rem',
+				marginRight: '0.5rem',
 				borderRadius: '100px',
 				backgroundColor: '#666c86',
 			}}></div>
@@ -28,9 +28,11 @@ function InfoSection() {
 				/>
 			</div>
 			<div className='status'>
-				<p>Software @Stanbic</p>
+				<p>SRE @Stanbic</p>
 				<Dot />
 				<p>Accra, Ghana</p>
+				<Dot />
+				<p>Henryansah083@gmail.com</p>
 			</div>
 		</div>
 	);
